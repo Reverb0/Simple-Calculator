@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Add Or Subtract</h1>
+    <form method="POST" action="/calculate">
+        <input type="text" name="expression" placeholder="Enter expression" required>
+        <input type="submit" value="Calculate">
+    </form>
+    <p>Result: {{ result }}</p>
+</body>
+</html>
